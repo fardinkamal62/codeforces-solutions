@@ -13,5 +13,4 @@ add_compile_options(
 )
 
 # Add executable
-add_executable(Codeforces ${SOURCES}
-        "Practice/A. LCM Problem.cpp")
+add_executable(Codeforces ${SOURCES})
