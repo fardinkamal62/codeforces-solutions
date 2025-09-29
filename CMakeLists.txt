@@ -9,8 +9,9 @@ file(GLOB SOURCES
 )
 
 add_compile_options(
-        -O2 -Wno-unused-result -DONLINEJUDGE
+        -O0 -g -Wno-unused-result -DONLINEJUDGE
 )
 
 # Add executable
-add_executable(Codeforces ${SOURCES})
+add_executable(Codeforces ${SOURCES}
+        "Practice/A. LCM Problem.cpp")
