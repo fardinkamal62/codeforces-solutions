@@ -13,4 +13,5 @@ add_compile_options(
 )
 
 # Add executable
-add_executable(Codeforces ${SOURCES})
+add_executable(Codeforces ${SOURCES}
+        "Practice/A. Long Comparison.cpp")
